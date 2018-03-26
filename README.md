@@ -1,4 +1,5 @@
-http://localhost:8761/   eurekaPost via zull http://localhost:8765/user-registration-service/register
+http://localhost:8761/   eureka
+Post via zull http://localhost:8765/user-registration-service/register
 
 http://localhost:8765/login-service/login  post request goes through zuul hit login-service then internally hit zull again and call get method go register-service
 
